@@ -30,7 +30,7 @@ int main(int arc, char* argv[])
 		if (std::cin.fail()) { handleBadInput(); continue; } // If it is a bad input, tell user to try again and clear the cin stuff.
 		std::cout << std::endl;
 
-		std::cout << "Please enter the number of walkers: ";
+		std::cout << "Please enter the max number of walkers: ";
 		std::cin >> walkersIn;
 		if (std::cin.fail()) { handleBadInput(); continue; } // If it is a bad input, tell user to try again and clear the cin stuff.
 		std::cout << std::endl;
